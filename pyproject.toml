@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hello-ollama"
+version = "0.1.0"
+description = ""
+authors = ["ricklon <rianders@docs.rutgers.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.6"
+click = "^8.1.7"
+langchain-community = "^0.2.6"
+streamlit = "^1.36.0"
+psutil = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
